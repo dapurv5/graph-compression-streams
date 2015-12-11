@@ -1,12 +1,25 @@
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+*~
+*.DS_Store
 
 # Package Files #
-*.jar
-*.war
 *.ear
+*.pyc
+*.o
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.idea
+/target
+/.settings
+.classpath
+.project
+/bin
+/build
+
+
+src/main/python/anahata.egg-info/
+src/main/python/build/
+src/main/python/dist/
+
+
+
+
