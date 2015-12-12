@@ -1,5 +1,5 @@
 /**
- *  Copyright (c) 2013 Apurv Verma
+ *  Copyright (c) 2015 Apurv Verma
  */
 package org.gatech.graphcompression;
 
