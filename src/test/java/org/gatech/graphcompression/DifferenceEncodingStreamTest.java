@@ -32,6 +32,7 @@ public class DifferenceEncodingStreamTest {
     //all you need
     int numVertices = 0;
     
+    //Step1: Compression
     DifferenceEncodingOutputStream deos = new DifferenceEncodingOutputStream(
         new FileOutputStream("/tmp/preferentialAttachment.dz"));
     
@@ -49,6 +50,7 @@ public class DifferenceEncodingStreamTest {
     in = getClass().getResourceAsStream("/preferentialAttachment.graph");    
     bin = new BufferedReader(new InputStreamReader(in));
     
+    //Step2: Decompression and verification
     DifferenceEncodingInputStream deis = new DifferenceEncodingInputStream(
         new FileInputStream("/tmp/preferentialAttachment.dz"));
     
